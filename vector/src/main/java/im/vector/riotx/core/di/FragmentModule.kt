@@ -232,26 +232,6 @@ interface FragmentModule {
 
     @Binds
     @IntoMap
-    @FragmentKey(SASVerificationIncomingFragment::class)
-    fun bindSASVerificationIncomingFragment(fragment: SASVerificationIncomingFragment): Fragment
-
-    @Binds
-    @IntoMap
-    @FragmentKey(SASVerificationShortCodeFragment::class)
-    fun bindSASVerificationShortCodeFragment(fragment: SASVerificationShortCodeFragment): Fragment
-
-    @Binds
-    @IntoMap
-    @FragmentKey(SASVerificationVerifiedFragment::class)
-    fun bindSASVerificationVerifiedFragment(fragment: SASVerificationVerifiedFragment): Fragment
-
-    @Binds
-    @IntoMap
-    @FragmentKey(SASVerificationStartFragment::class)
-    fun bindSASVerificationStartFragment(fragment: SASVerificationStartFragment): Fragment
-
-    @Binds
-    @IntoMap
     @FragmentKey(PublicRoomsFragment::class)
     fun bindPublicRoomsFragment(fragment: PublicRoomsFragment): Fragment
 
